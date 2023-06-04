@@ -15,9 +15,7 @@ npm create vite@latest
 
 ### website
 
-```javascript
-https://vitejs.dev/guide/
-```
+[https://vitejs.dev/guide/](https://vitejs.dev/guide/)
 
 ### instal vitest
 
@@ -40,7 +38,7 @@ npm install -D vitest
 
 ### vitest Website
 
-[text](https://vitest.dev)
+[https://vitest.dev](https://vitest.dev)
 
 ### install testing Library
 
@@ -67,6 +65,10 @@ npm i jsdom @testing-library/jest-dom @testing-library/react @testing-library/us
 vitejs.config.js به اسم
 نیاز هست یک سری کانفیگ بهش اضافه کنیم
 
+برای دیدن کانفیگ های بیشتر می تونید به لینک زیر مراجعه کنید
+
+[ https://vitejs.dev/config](https://vitejs.dev/config)
+
 ```javascript
 /// <reference types="vitest"/>
 /// <reference types="vite/client"/>
@@ -74,7 +76,6 @@ vitejs.config.js به اسم
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
   test: {
