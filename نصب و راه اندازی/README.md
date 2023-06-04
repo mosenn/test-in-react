@@ -1,8 +1,8 @@
 # vitejs در unit test نصب و راه اندازی
 
-امروزه برای نصب ریکت از
+امروزه برای نصب ریکت از  vitejs
 استفاده میشه پس طبعا نیاز داریم که در قدم اول vitejs
-رو نصب کنیم vitejs
+رو نصب کنیم
 
 ### install
 
@@ -10,8 +10,8 @@
 npm create vite@latest
 ```
 
-به روش های دیگه ای می تونید نصب رو انجام بدید که
-مشاهده کنید vitejs می تونید درون سایت
+روش های نصب دیگه هم هست برای vitejs که می تونید 
+درون وب سایت خوده vitejs مشاهده کنید 
 
 ### website
 
@@ -19,18 +19,17 @@ npm create vite@latest
 
 ### install vitest
 
-برای اینکه بتونیم تست رو درون
-انجام بدیم نیاز داریم به یک کتابخونه به اسم vitejs
-vitest
+برای اینکه بتونیم تست رو درون vitejs
+ انجام بدیم نیاز  به یک کتابخونه به اسم vitest داریم 
+
 
 ```javascript
 npm install -D vitest
 ```
 
-برنامه development از اونجا که تست صرفا در
-استفاده میشه
-استفاده شده -D از
-قرار میگیره dev-dependency درون vitest در نتیجه
+از اونجای که تست صرفا در محیط development برنامه انجام میشه 
+خوده کتابخونه vitest از D- استفاده کرده .
+اینکار باعث میشه vitest درون devDependencies قرار بگیره
 
 ```javascript
 "devDependencies": {"vitest": "^0.31.4"}
@@ -42,8 +41,7 @@ npm install -D vitest
 
 ### install testing Library
 
-بعد از اینکه نصب انجام شد
-نوبته نصب لایبری های تست هستش
+بعد از اینکه نصب انجام شد نوبت نصب library های تست هستش 
 
 ```javascript
 npm i jsdom
@@ -60,14 +58,13 @@ npm i jsdom @testing-library/jest-dom @testing-library/react @testing-library/us
 
 ### vitejs.config.js
 
-زمانی که یک پروژه ریکت به وسیله
-نصب می کنیم یک فایل برای ما ایجاد می کنه vitejs
-vitejs.config.js به اسم
-نیاز هست یک سری کانفیگ بهش اضافه کنیم
+زمانی که یک پروژه ریکت به وسیله vitejs
+نصب می کنیم یک فایل برای ما ایجاد می کنه به اسم vitejs.config.js
+نیاز هست یک سری config بهش اضافه کنیم
+برای دیدن config های بیشتر می تونید به لینک زیر مراجعه کنید
 
-برای دیدن کانفیگ های بیشتر می تونید به لینک زیر مراجعه کنید
 
-[ https://vitejs.dev/config](https://vitejs.dev/config)
+[https://vitest.dev/config/](https://vitest.dev/config/)
 
 ```javascript
 /// <reference types="vitest"/>
@@ -86,21 +83,20 @@ export default defineConfig({
 });
 ```
 
-در قسمت بالا 2 تا رفرنس داریم که هر دو نیاز هست اضافه شه
-اشاره می کنه به
-vitejs و vitest
+در قسمت بالا 2 تا reference داریم که هر دو نیاز هست اضافه شه
+اشاره می کنه به vitejs و vitest
+
 
 ```javascript
 /// <reference types="vitest"/>
 /// <reference types="vite/client"/>
 ```
 
-دقت داشته باشید که حتما 3 تا بک اسلش رو بزارید
+دقت داشته باشید که حتما 3 تا back slash رو بزارید
 در غیر این صورت با ارور مواجه می شید
-
-به صورت دیفالت هست و نیاز به نوشتن اش نیست `defineConfig`
-اما چیزی که نیاز هست بهش اضافه کنیم
-هستش test کانفیگ های مربوط به
+به صورت default بعد از نصب `defineConfig`
+هستش و نیاز به نوشتنش نیست 
+اما چیزی که نیاز هست بهش اضافه کنیم config های مربوط به test هست . 
 
 ```javascript
   test: {
@@ -110,39 +106,27 @@ vitejs و vitest
   },
 ```
 
-<html dir='rtl'>
-<body>
-<p>`globals`
-اجازه میده فانکشنی رو به اسم 
-<span>`test()`</span>
-</p>
-<p>
-صدا بزنیم و بهش دسترسی داشته باشم</p>
-</body>
-</html>
+اولین globals هستش اجازه میده به طور global به test ها 
+دسترسی داشته باشیم . 
 
-<hr/>
-اجازه میده که فانکشنی به اسم `globals`
-رو صدا بزنیم و بهش دسترسی داشته باشیم `test()`
+بعدی environment نوع متغییر رو مشخص می کنه 
+که بهش گفته شد  jsdom استفاده کنه که نصب کردیم اول کار  
 
-نوع متغییر رو مشخص می کنه `environment`
-استفاده کنه jsdom که اینجا گفتیم از کتابخونه
-
-می زاریم می تونیم برای استایل ها `true` زمانی که روی `css`
-تست بنویسیم
+مورد بعدی css هست که می تونیم روی true قرار بدیم 
+و زمانی که روی true قرار بدیم می تونیم برای css ها هم تست بنویسیم . 
 
 ### script Package.json
 
-تنها کاری که مونده نیاز هست یک
-اضافه کنیم package.json اسکریپت تست به
+تنها کاری که مونده نیاز هست یک script مربوط به test 
+درون package.json اضافه کنیم 
 
 ```javascript
   "scripts": {
     "test": "vitest",
   }
 ```
-
-استفاده می کنیم `vitest` که از کتابخونه
+داریم از vitest برای test نویسی استفاده می کنیم 
+در نهایت test رو برابر با vitest قرار میدیم .
 
 خب کار های که بایدانجام میدادیم روانجام دادیم
 ایجاد کنیم test می تونیم یک فایل
