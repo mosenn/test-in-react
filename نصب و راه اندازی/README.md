@@ -110,7 +110,7 @@ vitejs و vitest
   },
 ```
 
-<html>
+<html dir='rtl'>
 <body>
 <p>`globals`
 اجازه میده فانکشنی رو به اسم 
