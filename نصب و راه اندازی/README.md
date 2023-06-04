@@ -17,7 +17,7 @@ npm create vite@latest
 
 [https://vitejs.dev/guide/](https://vitejs.dev/guide/)
 
-### instal vitest
+### install vitest
 
 برای اینکه بتونیم تست رو درون
 انجام بدیم نیاز داریم به یک کتابخونه به اسم vitejs
@@ -110,6 +110,9 @@ vitejs و vitest
   },
 ```
 
+`globals` اجازه میده فانکشنی رو به اسم `test()` صدا بزنیم و بهش دسترسی داشته باشیم
+
+<hr/>
 اجازه میده که فانکشنی به اسم `globals`
 رو صدا بزنیم و بهش دسترسی داشته باشیم `test()`
 
