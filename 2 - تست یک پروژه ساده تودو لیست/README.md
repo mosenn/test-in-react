@@ -95,7 +95,10 @@ test("it show two inputs and a button", () => {}
 
 # Testing Function
 
-درون فانکشن test یک arrow function داریم . 
+درون فانکشن test یک arrow function داریم .
+```javascript
+test("it show two inputs and a button", () => {}
+```
 <br/>
 <br/>
 
