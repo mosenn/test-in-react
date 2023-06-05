@@ -13,7 +13,7 @@
 
 <p align="center">
  <img src='https://github.com/mosenn/test-in-react/assets/91747908/4152719c-314c-495e-b647-70b8723b110c' alt="react component" />
- <p>
+ </p>
 <br/> 
 <br/> 
 در این بخش می خوایم یک تست ساده برای کامپونت UserForm بنویسیم .
@@ -244,19 +244,26 @@ render(<UserForm name="" />)
 درون تست از دست دادیم یا چه مشکلی درون تست ما هست که تست ما pass نشده 
 <br/>
 <br/>
-درون عکس زیر مشاهده می کنید :  
+درون عکس زیر مشاهده می کنید  
 
 <p align='center'>
 <img src='https://github.com/mosenn/test-in-react/assets/91747908/f12291e0-4368-4694-9abf-1953dde629d8'  alt='fail test in react'>
 </p>
+<br/>
+<br/>
+اما اگر وارد کامپونت UserForm شیم برای مثال button رو حذف کنیم
 
+
+<br/>
+<br/>
 <p align='center'>
 <img src='https://github.com/mosenn/test-in-react/assets/91747908/f72a16d9-d5d0-4b62-a42c-028b72b46e9b'  alt='fail test in react'>
 </p>
+
 <br/>
 <br/>
-نکته :
+
+## Note :
 زمانی که test ران هست در صورت تغییر فایل تست و کامپونت test دوباره عملیات تست رو انجام میده 
-<br/>
-<br/>
+
 
