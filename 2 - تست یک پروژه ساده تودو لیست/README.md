@@ -11,7 +11,7 @@
 <br/> 
 <br/> 
 
-<p style='algin-item:center'>
+<p align="center">
  <img src='https://github.com/mosenn/test-in-react/assets/91747908/4152719c-314c-495e-b647-70b8723b110c' alt="react component" />
  <p>
 <br/> 
