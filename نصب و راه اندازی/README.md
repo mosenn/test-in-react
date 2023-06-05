@@ -63,8 +63,10 @@ npm i jsdom @testing-library/jest-dom @testing-library/react @testing-library/us
 زمانی که یک پروژه ریکت به وسیله vitejs
 نصب می کنیم
 <br/>
-یک فایل برای ما ایجاد می کنه به اسم vitejs.config.js
+یک فایل برای ما ایجاد می کنه به اسم vitejs.config.js 
+<br/>
 نیاز هست یک سری config بهش اضافه کنیم
+<br/>
 برای دیدن config های بیشتر مروبط به vitest می تونید به لینک زیر مراجعه کنید
 
 
@@ -98,8 +100,10 @@ export default defineConfig({
 
 دقت داشته باشید که حتما 3 تا back slash رو بزارید
 در غیر این صورت با ارور مواجه می شید
+<br/>
 به صورت default بعد از نصب `defineConfig`
-هستش و نیاز به نوشتنش نیست 
+هستش و نیاز به نوشتنش نیست
+<br/>
 اما چیزی که نیاز هست بهش اضافه کنیم config های مربوط به test هست . 
 
 ```javascript
