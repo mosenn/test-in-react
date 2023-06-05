@@ -134,3 +134,7 @@ export default defineConfig({
 ایجاد کنیم test می تونیم یک فایل
 صرفا برای اینکه متوجه شیم که برنامه ما
 اماده برای تست نویسی هست یا خیر
+بعد از انجام مراح بالا درون پروژه یک فایل test.jsx ایجاد می کنیم . 
+
+![image](https://github.com/mosenn/test-in-react/assets/91747908/8d65f669-6ff5-4793-a56a-6db40040b93d)
+
