@@ -238,14 +238,27 @@ render(<UserForm name="" />)
 در ادامه اجزای کامپونت رو به شما نشون میده در ترمینال vscode 
 <br/>
 <br/>
-زمانی که اجزای کامپونت شما به اتما میرسه به ما میگه که چه چیزی رو 
+زمانی که اجزای کامپونت شما به اتمام میرسه به ما میگه که چه چیزی رو 
 <br/>
 <br/> 
 درون تست از دست دادیم یا چه مشکلی درون تست ما هست که تست ما pass نشده 
 <br/>
 <br/>
-به صورت عکس زیر 
+درون عکس زیر مشاهده می کنید :  
 
 <p align='center'>
 <img src='https://github.com/mosenn/test-in-react/assets/91747908/f12291e0-4368-4694-9abf-1953dde629d8'  alt='fail test in react'>
 </p>
+که به button با یک فلش ریز به رنگ قرمز اشاره کرده
+<br/>
+<br/>
+نشون میده test ما در این قسمت fail شده
+<p align='center'>
+<img src='https://github.com/mosenn/test-in-react/assets/91747908/f72a16d9-d5d0-4b62-a42c-028b72b46e9b'  alt='fail test in react'>
+</p>
+**نکته : 
+زمانی که test ران هست درون ترمینال vscode اگر فایل test یا کامپونت که براش test نوشتیم 
+<br/>
+<br/>
+تغییر بدیم هر بار test ما ران میشه درون ترمینال vscode
+**
