@@ -139,7 +139,7 @@ export default defineConfig({
 
 
 <p align="center">
-  <img src="https://github.com/mosenn/test-in-react/assets/91747908/8d65f669-6ff5-4793-a56a-6db40040b93d" alt="software testing"/>
+  <img src="https://github.com/mosenn/test-in-react/assets/91747908/8d65f669-6ff5-4793-a56a-6db40040b93d" alt="file test"/>
 </p>
 
 
@@ -153,4 +153,10 @@ test("test");
 صرفا یک فانکشن به اسم `()test` صدا زدیم و درونش یک `string` قرار دادیم این string پیام تست ما هست که موقع run  شدن test به ما نمایش میده . می تونید هر چیزی که نیاز هست بنویسید . اینجا صرفا test رو نوشتیم . 
 
 خب ترمینال vscode رو باز می کنیم . و دستور `npm test` رو می زنیم . اتفاقی که باید بیوفته برنامه ما شروع می کنه به test کردن . 
-و اگر همه چیز اوکی باشه `passed`
+و اگر همه چیز اوکی باشه  `passed` رو به رنگ سبز درون ترمینال مشاهده می کنید . 
+
+
+<p align="center">
+  <img src="https://github.com/mosenn/test-in-react/assets/91747908/a2528c33-5a32-4c88-b660-b50d368f00d9" alt="vscode terminal testing"/>
+</p>
+
