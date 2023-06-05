@@ -48,3 +48,47 @@ https://github.com/mosenn/test-in-react/assets/91747908/25c5c88d-5f52-4d93-b08f-
 <p align='center'>
 <img src='https://github.com/mosenn/test-in-react/assets/91747908/14e2fd37-fca4-4a45-89af-8dab4714e886'/>
 </p>
+
+درون فایل test که ایجاد کردیم میایم کامپونتی که مد نظرمون هست رو تست کنیم رو import می کنیم .
+```javascript
+import UserForm from "./components/UseForm";
+```
+
+میایم testing-library/react رو import می کنیم در بخش قبل نصب کردیم 
+
+```javascript
+import { render, screen } from "@testing-library/react";
+```
+
+همینطور برای این که بتونیم به element های صحفه دسترسی داشته باشیم . 
+<br/>
+<br/>
+میایم testing-library/jest-dom/extend-expect رو هم import می کنیم . 
+
+```javascript
+import "@testing-library/jest-dom/extend-expect";
+```
+
+کل import های که نیاز داریم به صورت یکجا :
+```javascript
+import UserForm from "./components/UseForm";
+import { render, screen } from "@testing-library/react";
+import "@testing-library/jest-dom/extend-expect";
+```
+<br/>
+<br/>
+قدم بعدی فانکشن ()test رو ایجاد می کنیم . 
+
+```javascript
+test("it show two inputs and a button", () => {}
+```
+گفتیم که می تونیم یک string قرار بدیم برای نشون دادن یک پیام مربوط به اون تست . 
+<br/>
+<br/>
+از اونجای که قرار وجود داشتن input و button مربوط به کامپونت UserForm رو چک کنیم . 
+<br/>
+<br/>
+پیام `it test two inptus and a button` رو قرار دادیم
+<br/>
+<br/>
+البته شما می تونید هر چیزه دیگه ای بنویسید با توجه به نیاز خودتون 
