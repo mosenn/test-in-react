@@ -211,7 +211,41 @@ render(<UserForm name="" />)
 و دوباره ترمینال vscode رو باز کنیم و با npm test تست رو ران کنیم . 
 <br/>
 <br/>
-این دفعه با ارور مواجه میشیم چون درون فایل test خودمون گفته بودیم 
+این دفعه با ارور مواجه میشیم چون درون فایل Userform.test.jsx خودمون گفته بودیم 
 <br/>
 <br/> 
-از کامپونت UserForm انتظار داریم که حاوی یک button باشه 
+از کامپونت UserForm انتظار داریم که حاوی یک button باشه
+<br/>
+<br/>
+بعد از حذف button از کامپونت UserForm و بعد از run کردن test در ترمینال vscode
+<br/>
+<br/>
+با ارور زیر در ترمینال مواجه میشیم 
+
+<p align='center'>
+<img src='https://github.com/mosenn/test-in-react/assets/91747908/9c16eac8-28c9-4f89-9dd3-cd6fdaae8c59'  alt='error in react testing'>
+</p>
+
+منتها تصویر بالا بخشی از ارور هست اما نکته ای که هست شما در عکس بالا کاملا متنی رو که 
+<br/>
+<br/> 
+برای تست نوشتید مشاهده می کنید 
+
+<p align='center'>
+<img src='https://github.com/mosenn/test-in-react/assets/91747908/57a9a695-3c82-4d12-a12d-0a73ced6b0bd'  alt='react testing'>
+</p>
+
+در ادامه اجزای کامپونت رو به شما نشون میده در ترمینال vscode 
+<br/>
+<br/>
+زمانی که اجزای کامپونت شما به اتما میرسه به ما میگه که چه چیزی رو 
+<br/>
+<br/> 
+درون تست از دست دادیم یا چه مشکلی درون تست ما هست که تست ما pass نشده 
+<br/>
+<br/>
+به صورت عکس زیر 
+
+<p align='center'>
+<img src='https://github.com/mosenn/test-in-react/assets/91747908/f12291e0-4368-4694-9abf-1953dde629d8'  alt='fail test in react'>
+</p>
