@@ -77,7 +77,11 @@ import "@testing-library/jest-dom/extend-expect";
 ```
 <br/>
 <br/>
- 
+
+# Create test() function
+
+قدم بعدی ایجاد فانکشن test هست که بصورت global در دسترس قرار داره .
+
 ```javascript
 test("it show two inputs and a button", () => {}
 ```
