@@ -144,7 +144,7 @@ render(<UserForm name="" />)
 از `getByRole` برای select کردن تکی استفاده میشه که اینجا یک button انتخاب کردیم .
 <br/>
 <br/>
-اشاره شد مثل select کردن در جاوا اسکریپت
+قبل تر اشاره شد مثل select کردن در جاوا اسکریپت
 
 
 ```javascript
