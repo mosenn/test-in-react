@@ -142,12 +142,10 @@ render(<UserForm name="" />)
 <br/>
 <br/>
 از `getByRole` برای select کردن تکی استفاده میشه که اینجا یک button انتخاب کردیم .
-
 <br/>
 <br/>
 اشاره شد مثل select کردن در جاوا اسکریپت
-<br/>
-<br/>
+
 
 ```javascript
 const inputs = document.querySelectorAll('.inputs')
