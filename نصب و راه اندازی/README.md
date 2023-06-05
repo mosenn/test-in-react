@@ -105,8 +105,10 @@ export default defineConfig({
 دقت داشته باشید که حتما 3 تا back slash رو بزارید
 در غیر این صورت با ارور مواجه می شید
 <br/>
+<br/>
 به صورت default بعد از نصب `defineConfig`
 هستش و نیاز به نوشتنش نیست
+<br/>
 <br/>
 اما چیزی که نیاز هست بهش اضافه کنیم config های مربوط به test هست . 
 
@@ -204,12 +206,12 @@ test("test");
 <br/>
 و اگر همه چیز اوکی باشه  `passed` رو به رنگ سبز درون ترمینال مشاهده می کنید . 
 
-<br/>
+
 
 <p align="center">
   <img src="https://github.com/mosenn/test-in-react/assets/91747908/a2528c33-5a32-4c88-b660-b50d368f00d9" alt="vscode terminal testing"/>
 </p>
-<br/>
+
 
 نصب و راه اندازی unit test در react که به وسیله vitejs نصب شده به پایان رسید .
 <br/>
