@@ -61,7 +61,9 @@ npm i jsdom @testing-library/jest-dom @testing-library/react @testing-library/us
 ### vitejs.config.js
 
 زمانی که یک پروژه ریکت به وسیله vitejs
-نصب می کنیم یک فایل برای ما ایجاد می کنه به اسم vitejs.config.js
+نصب می کنیم
+<br/>
+یک فایل برای ما ایجاد می کنه به اسم vitejs.config.js
 نیاز هست یک سری config بهش اضافه کنیم
 برای دیدن config های بیشتر مروبط به vitest می تونید به لینک زیر مراجعه کنید
 
