@@ -77,8 +77,7 @@ import "@testing-library/jest-dom/extend-expect";
 ```
 <br/>
 <br/>
-قدم بعدی فانکشن ()test رو ایجاد می کنیم . 
-
+قدم بعدی ایجاد فانکشن `()test` هست که به صورت global در دسترس هست 
 ```javascript
 test("it show two inputs and a button", () => {}
 ```
