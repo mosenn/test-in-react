@@ -252,13 +252,13 @@ render(<UserForm name="" />)
 که به button با یک فلش ریز به رنگ قرمز اشاره کرده
 <br/>
 <br/>
-نشون میده test ما در این قسمت fail شده
+عکس زیر نشون دهنده fail شدن ارور هست 
 <p align='center'>
 <img src='https://github.com/mosenn/test-in-react/assets/91747908/f72a16d9-d5d0-4b62-a42c-028b72b46e9b'  alt='fail test in react'>
 </p>
-**نکته : 
+**نکته :** 
 زمانی که test ران هست درون ترمینال vscode اگر فایل test یا کامپونت که براش test نوشتیم 
 <br/>
 <br/>
 تغییر بدیم هر بار test ما ران میشه درون ترمینال vscode
-**
+
