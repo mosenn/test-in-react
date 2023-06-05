@@ -34,6 +34,10 @@
   در نهایت value اینپوت ها  ذخیره شده و به کامپونت UserList پاس داده میشه
        <br/>
   <br/> 
-  درون کامپونت UserList اطلاعات رو نشون میدم به وسیله map . 
+  درون کامپونت UserList اطلاعات رو نشون داده میشه به وسیله map . 
   
+
+https://github.com/mosenn/test-in-react/assets/91747908/25c5c88d-5f52-4d93-b08f-48fff62fd828
+
+
   
