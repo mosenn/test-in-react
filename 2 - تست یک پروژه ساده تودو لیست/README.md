@@ -131,11 +131,60 @@ render(<UserForm name="" />)
   const button = screen.getByRole("button");
 }
 ```
-بعد از render کردن کامپونت UseForm به وسیله screen امدیم element های مد نظر رو select کردیم 
+
+بعد از render کردن کامپونت UseForm به وسیله screen امدیم element های مد نظر رو select کردیم
 <br/>
 <br/>
+از `getAllByeRole` استفاده شده که زمانی که بیشتر از یک element بخوایم select کنیم
+<br/>
+<br/>
+استفاده میشه و به چیزی که داریم select می کنیم اشاره می کنه.
+<br/>
+<br/>
+از `getByRole` برای select کردن تکی استفاده میشه که اینجا یک button انتخاب کردیم .
+
+<br/>
+<br/>
+اشاره شد مثل select کردن در جاوا اسکریپت 
+```javascirpt
+const inputs = document.querySelectorAll('.inputs')
+const button = document.querySelector('button')
+```
+<br/>
+<br/>
+
 گفتیم که تمامی `textbox` ها رو بگیره که اشاره داره به 2 تا input درون کامپونت UseForm 
 <br/>
 <br/>
 همینطور گفتیم که `button` رو هم بگیره button که درون کامپونت UseForm هست به اسم add user  
 
+# expect
+
+در نهایت میایم انتظاری که از کامپونت UserForm داریم می نویسیم .
+<br/>
+<br/>
+در اینجا انتظار ما از کامپونت UserForm داشتن یک button و دو input هستش .
+
+```javascript
+test("it show two inputs and a button", () => {
+render(<UserForm name="" />)
+  const inputs = screen.getAllByRole("textbox");
+  const button = screen.getByRole("button");
+    expect(inputs).toHaveLength(2);
+  expect(button).toBeInTheDocument();
+}
+```
+که متغییر های تعریف شده inputs و button رو درونش قرار دادیم . 
+<br/>
+<br/>
+
+در نهایت برای inptus گفتیم `(2)toHaveLength`  به این مغهوم که درون کامپونت UserForm 
+<br/>
+<br/>
+انتظار داریم که 2 تا input وجود داشته باشه . 
+<br/>
+<br/>
+برای `button` هم گفتیم `()toBeInTheDocument` به این مفهوم که انتظار داریم درون
+<br/>
+<br/>
+کامپونت UserForm یک button وجود داشته باشه .
