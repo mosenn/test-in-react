@@ -41,3 +41,10 @@ https://github.com/mosenn/test-in-react/assets/91747908/25c5c88d-5f52-4d93-b08f-
 
 
   
+<br/>
+  <br/>
+  
+  یک فایل test درون پروژه ایجاد می کنیم اسم این فایل رو گذاشتیم UserForm.test.jsx 
+<p align='center'>
+<img src='https://github.com/mosenn/test-in-react/assets/91747908/14e2fd37-fca4-4a45-89af-8dab4714e886'/>
+</p>
