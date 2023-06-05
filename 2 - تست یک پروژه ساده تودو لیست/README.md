@@ -16,6 +16,9 @@
  </p>
 <br/> 
 <br/> 
+
+<p algin='right'>
+ 
 در این بخش می خوایم یک تست ساده برای کامپونت UserForm بنویسیم .
 <br/> 
 <br/> 
@@ -36,6 +39,7 @@
   <br/> 
   درون کامپونت UserList اطلاعات رو نشون داده میشه به وسیله map . 
   
+ </p>
 
 https://github.com/mosenn/test-in-react/assets/91747908/25c5c88d-5f52-4d93-b08f-48fff62fd828
 
@@ -249,13 +253,9 @@ render(<UserForm name="" />)
 <p align='center'>
 <img src='https://github.com/mosenn/test-in-react/assets/91747908/f12291e0-4368-4694-9abf-1953dde629d8'  alt='fail test in react'>
 </p>
-<br/>
-<br/>
-اما اگر وارد کامپونت UserForm شیم برای مثال button رو حذف کنیم
-
-
-<br/>
-<br/>
+<p align='right'>
+ اگر دقت کنید یک فلش ریز به رنگ قرمز به button اشاره داره
+</p>
 <p align='center'>
 <img src='https://github.com/mosenn/test-in-react/assets/91747908/f72a16d9-d5d0-4b62-a42c-028b72b46e9b'  alt='fail test in react'>
 </p>
