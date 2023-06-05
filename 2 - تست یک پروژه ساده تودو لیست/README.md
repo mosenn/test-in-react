@@ -91,4 +91,51 @@ test("it show two inputs and a button", () => {}
 پیام `it test two inptus and a button` رو قرار دادیم
 <br/>
 <br/>
-البته شما می تونید هر چیزه دیگه ای بنویسید با توجه به نیاز خودتون 
+البته شما می تونید هر چیزه دیگه ای بنویسید با توجه به نیاز خودتون
+
+# Testing Function
+
+درون فانکشن test یک arrow function داریم . 
+<br/>
+<br/>
+
+درون این arrow function میایم کد های مربوط به test رو می نویسیم . 
+<br/> 
+<br/> 
+
+#render 
+
+از render برای render کردن کامپونتی که قرار هست مورد test قرار بگیره استفاده می کنیم . 
+```javascript
+test("it show two inputs and a button", () => {
+render(<UserForm />)}
+```
+اگر کامپونت ما props رو داشت می تونیم props رو هم قرار بدیم
+
+```javascript
+test("it show two inputs and a button", () => {
+render(<UserForm name="" />)}
+```
+
+#screen 
+
+از screen برای select کردن element ها استفاده می کنیم . 
+<br/>
+<br/>
+یه جواری مثل select کردن dom در javascript 
+
+```javascript
+test("it show two inputs and a button", () => {
+render(<UserForm name="" />)
+  const inputs = screen.getAllByRole("textbox");
+  const button = screen.getByRole("button");
+}
+```
+بعد از render کردن کامپونت UseForm به وسیله screen امدیم element های مد نظر رو select کردیم 
+<br/>
+<br/>
+گفتیم که تمامی `textbox` ها رو بگیره که اشاره داره به 2 تا input درون کامپونت UseForm 
+<br/>
+<br/
+همینطور گفتیم که `button` رو هم بگیره button که درون کامپونت UseForm هست 
+
