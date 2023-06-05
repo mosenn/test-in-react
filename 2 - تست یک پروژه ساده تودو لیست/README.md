@@ -249,20 +249,14 @@ render(<UserForm name="" />)
 <p align='center'>
 <img src='https://github.com/mosenn/test-in-react/assets/91747908/f12291e0-4368-4694-9abf-1953dde629d8'  alt='fail test in react'>
 </p>
-که به button با یک فلش ریز به رنگ قرمز اشاره کرده
-<br/>
-<br/>
-عکس زیر نشون دهنده fail شدن ارور هست
-<br/>
-<br/>
+
 <p align='center'>
 <img src='https://github.com/mosenn/test-in-react/assets/91747908/f72a16d9-d5d0-4b62-a42c-028b72b46e9b'  alt='fail test in react'>
 </p>
 <br/>
 <br/>
 **نکته :** 
-زمانی که test ران هست درون ترمینال vscode اگر فایل test یا کامپونت که براش test نوشتیم 
+زمانی که test ران هست در صورت تغییر فایل تست و کامپونت test دوباره عملیات تست رو انجام میده 
 <br/>
 <br/>
-تغییر بدیم هر بار test ما ران میشه درون ترمینال vscode
 
