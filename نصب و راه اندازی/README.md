@@ -27,9 +27,10 @@ npm create vite@latest
 npm install -D vitest
 ```
 
-<p>از اونجای که تست صرفا در محیط development برنامه انجام میشه 
+از اونجای که تست صرفا در محیط development برنامه انجام میشه 
 خوده کتابخونه vitest از D- استفاده کرده .
-</p>
+<br/>
+
 اینکار باعث میشه vitest درون devDependencies قرار بگیره
 
 ```javascript
