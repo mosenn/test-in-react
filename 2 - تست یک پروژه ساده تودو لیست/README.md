@@ -103,7 +103,7 @@ test("it show two inputs and a button", () => {}
 <br/> 
 <br/> 
 
-#render 
+# render 
 
 از render برای render کردن کامپونتی که قرار هست مورد test قرار بگیره استفاده می کنیم . 
 ```javascript
@@ -117,7 +117,7 @@ test("it show two inputs and a button", () => {
 render(<UserForm name="" />)}
 ```
 
-#screen 
+# screen 
 
 از screen برای select کردن element ها استفاده می کنیم . 
 <br/>
@@ -136,6 +136,6 @@ render(<UserForm name="" />)
 <br/>
 گفتیم که تمامی `textbox` ها رو بگیره که اشاره داره به 2 تا input درون کامپونت UseForm 
 <br/>
-<br/
-همینطور گفتیم که `button` رو هم بگیره button که درون کامپونت UseForm هست 
+<br/>
+همینطور گفتیم که `button` رو هم بگیره button که درون کامپونت UseForm هست به اسم add user  
 
