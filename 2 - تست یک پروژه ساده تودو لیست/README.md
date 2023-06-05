@@ -145,10 +145,14 @@ render(<UserForm name="" />)
 
 <br/>
 <br/>
-اشاره شد مثل select کردن در جاوا اسکریپت 
-```javascirpt
+اشاره شد مثل select کردن در جاوا اسکریپت
+<br/>
+<br/>
+
+```javascript
 const inputs = document.querySelectorAll('.inputs')
 const button = document.querySelector('button')
+}
 ```
 <br/>
 <br/>
