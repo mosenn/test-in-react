@@ -253,15 +253,28 @@ render(<UserForm name="" />)
 <p align='center'>
 <img src='https://github.com/mosenn/test-in-react/assets/91747908/f12291e0-4368-4694-9abf-1953dde629d8'  alt='fail test in react'>
 </p>
+<br/>
+<br/>
 <p align='right'>
  اگر دقت کنید یک فلش ریز به رنگ قرمز به button اشاره داره
+ <br/>
+ <br/>
+  اشاره می کنه تست ما به این دلیل pass نشده چون کامپونت ما درونش دیگه button نیست 
 </p>
+<br/>
+
 <p align='center'>
 <img src='https://github.com/mosenn/test-in-react/assets/91747908/f72a16d9-d5d0-4b62-a42c-028b72b46e9b'  alt='fail test in react'>
+</p>
+<br/>
+<br/>
+<p align='right'>
+ در عکس بالا ارور fail شدن تست رو مشاهده می کنید که اخرین ارور درون ترمینال vscode است 
 </p>
 
 <br/>
 <br/>
+
 
 ## Note :
 زمانی که test ران هست در صورت تغییر فایل تست و کامپونت test دوباره عملیات تست رو انجام میده 
