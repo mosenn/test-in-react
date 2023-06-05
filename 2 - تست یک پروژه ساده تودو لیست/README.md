@@ -196,3 +196,22 @@ render(<UserForm name="" />)
 <br/>
 <br/>
 کامپونت UserForm یک button وجود داشته باشه .
+
+<br/>
+<br/> 
+
+اگر npm test رو در ترمینال vscode بزنیم test که نوشتیم اجرا میشه.
+<p align='center'>
+<img src='https://github.com/mosenn/test-in-react/assets/91747908/5f62cf65-f6f5-4c18-a270-7a59f5fdb8c9'  alt='react testing'>
+</p>
+
+اما اگر وارد کامپونت UserForm شیم برای مثال button رو حذف کنیم . 
+<br/>
+<br/>
+و دوباره ترمینال vscode رو باز کنیم و با npm test تست رو ران کنیم . 
+<br/>
+<br/>
+این دفعه با ارور مواجه میشیم چون درون فایل test خودمون گفته بودیم 
+<br/>
+<br/> 
+از کامپونت UserForm انتظار داریم که حاوی یک button باشه 
