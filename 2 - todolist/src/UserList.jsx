@@ -1,7 +1,5 @@
-import React from "react";
-
-const UserList = ({ users }) => {
-  const renderUsers = users.map((user) => {
+function UserList({ users }) {
+  const renderedUsers = users.map((user) => {
     return (
       <tr key={user.name}>
         <td>{user.name}</td>
@@ -9,6 +7,7 @@ const UserList = ({ users }) => {
       </tr>
     );
   });
+
   return (
     <table>
       <thead>
@@ -17,9 +16,9 @@ const UserList = ({ users }) => {
           <th>Email</th>
         </tr>
       </thead>
-      <tbody>{renderUsers}</tbody>
+      <tbody>{renderedUsers}</tbody>
     </table>
   );
-};
+}
 
 export default UserList;

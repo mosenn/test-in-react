@@ -1,18 +1,20 @@
 import { useState } from "react";
-import "./App.css";
-import UseForm from "./components/UseForm";
-import UserList from "./components/UserList";
+import UserForm from "./UseForm";
+import UserList from "./UserList";
+
 function App() {
   const [users, setUsers] = useState([]);
 
   const onUserAdd = (user) => {
     setUsers([...users, user]);
   };
+
   return (
-    <>
-      <UseForm onUserAdd={onUserAdd} />
+    <div>
+      <UserForm onUserAdd={onUserAdd} />
+      <hr />
       <UserList users={users} />
-    </>
+    </div>
   );
 }
 
