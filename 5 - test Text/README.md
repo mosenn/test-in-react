@@ -1,5 +1,5 @@
 
-# text & condition test 
+# text & condition text  
 در این قسمت یک پروژه react رو داریم که حاوی چند tag p و یک tag h1 رو داریم . 
 
 همینطور یک button که وظیفه true / false کردن یک state رو داره . 
@@ -182,4 +182,9 @@ it("Take Hellow Message", () => {
 ```
 اگر در terminal vscode بیام و test خودمون رو run کنیم با دستور npm test 
 
-اولین test که نوشتیم pass خواهد شد . 
+اولین test که نوشتیم pass خواهد شد .
+
+<div align='center'>
+<img src='https://github.com/mosenn/test-in-react/assets/91747908/862a2c2e-6afa-46e8-aa8b-02ffa8963b9d' alt="vitest in react">
+</div>
+ 
