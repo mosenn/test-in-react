@@ -131,6 +131,24 @@ it("Take Hellow Message", () => {
 it("Take Hellow Message", () => {
   render(<App />);
   const hellowMessage = screen.getByRole("Hellow");
-
 });
 ````
+به روش های مختلفی می تونیم که element های یا همون tag ها رو select کینم . 
+
+اینجا از getByRole استفاده کردیم . در واقع به وسیله Role داریم select می کنیم . 
+
+می تونیم از پیش فرض های که خوده getByRole به ما پیشنهاد میده استفاده کنیم 
+
+مثل heading و .. می تونیم برای tag مد نظرمون یک role تعریف کنیم . 
+
+که در اینجا role Hellow رو برای تگ h1 تعریف کردیم . 
+
+```javascript 
+ <h1 role="Hellow">Hello react</h1>
+```
+
+و به وسیله همین role که تعریف کردیم امدیم h1 رو در فایل App.test.jsx به وسیله getByRole که یک متد هست select کردیم .
+
+```javascript 
+  const hellowMessage = screen.getByRole("Hellow");
+``` 
