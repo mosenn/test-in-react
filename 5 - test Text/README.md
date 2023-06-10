@@ -190,3 +190,36 @@ it("Take Hellow Message", () => {
 </div>
  <br/>
 <br/>
+
+اما اگر درون App.jsx بیایم text درون h1 خودمون رو تغییر بدیم test ما پاس نخواهد شد .
+
+
+```javascript 
+   <h1 role="Hellow">Hellow react</h1>
+```
+
+یک character به Hello اضافه کردیم در واقع یدونه w الان دیگه test ما pass نخواهد شد . 
+
+یه بار دیگه به expect رو ببنیم : 
+
+```javascript 
+ expect(hellowMessage.textContent).toBe("Hello react");
+```
+
+خب درون toBe گفتیم که Hello react باشه . اما الان ما یدونه w اضافه کردیم به text خودمون . 
+
+در نتیجه test ما fail خواهد شد .
+
+یک بار دیگه npm test در terminal vscode بزنیم . test ما fail خواهد شد .
+
+ 
+
+<br/>
+<br/>
+<div align='center'>
+<img src='https://github.com/mosenn/test-in-react/assets/91747908/b627c37e-e48c-4861-85ad-35d7f673fed8' alt='vitest react'>
+</div>
+<br/>
+<br/>
+
+اگر با دقت نگاه کنید یک علامت + قرمز رنگ هست که درواقع اشاره می کنه به این که text ما یک W اضافه داره . 
