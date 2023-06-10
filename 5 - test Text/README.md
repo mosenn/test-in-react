@@ -9,8 +9,7 @@
  کامپونت app.jsx به صورت زیر هست :
 
 
-<br/>
-<br/>
+
 ```javascript
 import { useState } from "react";
 
@@ -41,22 +40,18 @@ function App() {
 export default App;
  
 ```
-<br/>
-<br/>
+
 
 می خوایم برای text های درون این کامپونت و همینطور شرطی که داریم به وسیله vitest یک تست بنویسیم 
 
 یک فایل به اسم App.test.jsx ایجاد می کنیم . 
 
-<br/>
-<br/>
 
 <div align='center'>
 <img src='https://github.com/mosenn/test-in-react/assets/91747908/d3dfecd0-c92c-43eb-b61b-e3ebeb8eda89' alt='test with vitest'>
 </div>
 
-<br/>
-<br/>
+
 
 درون فایل App.test.jsx شرو می کنیم به import کردن مواردی که نیاز داریم . 
 
@@ -65,8 +60,6 @@ import { fireEvent, render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
 import { expect, test } from "vitest";
 ```
-<br/>
-<br/>
 
 # testing-library/react
 
@@ -83,20 +76,16 @@ import { expect, test } from "vitest";
 برای اینکه بتونیم به یک سری متد ها درون test دسترسی داشته باشیم به jset-dom نیاز داریم . 
 
 مثل :
-<br/>
-<br/>
+
 
 ```javascript
  expect(button).toBeInTheDocument();
 ```
-<br/>
-<br/>
+
 
 # vitest 
 
-یک سری api یا همون فانکشن (متد) در اختیار ما قرار میده و می تونیم ازشون استفاده کنیم .
-<br/>
-<br/>
+یک سری api یا همون فانکشن (متد) در اختیار ما قرار میده و می تونیم ازشون استفاده کنیم
 
 ```javascript 
 import { expect, test } from "vitest";
@@ -240,4 +229,9 @@ it("Take Hellow Message", () => {
 <br/>
 <br/>
 
-اگر با دقت نگاه کنید یک علامت + قرمز رنگ هست که درواقع اشاره می کنه به این که text ما یک W اضافه داره . 
+اگر با دقت نگاه کنید یک علامت + قرمز رنگ هست که درواقع اشاره می کنه به این که text ما یک W اضافه داره .
+
+
+# test two 
+
+ 
