@@ -152,3 +152,34 @@ it("Take Hellow Message", () => {
 ```javascript 
   const hellowMessage = screen.getByRole("Hellow");
 ``` 
+
+در اخر هر test میایم انتظاری که داریم رو می نویسیم . 
+
+```javascript 
+ expect(hellowMessage.textContent).toBe("Hello react");
+````
+
+به وسیله expect که به معنی انتظار هست . 
+
+اینجا گفتیم انتظار داریم که tag h1 تکست درونش برابر باشه با 'Hello react'
+
+خب textContent رو که باهاش درون جاوااسکریپت اشنا شدید . 
+
+متد toBe مثل ()toBeInTheDocument از jest-dom در اختیار ما می زاره که import کردیم . 
+
+متد `toBe`  همونطور که از اسم اش پیداس یعنی برابری . 
+
+که در کد بالا گفتیم textContent تگی که select کردیم toBe یا همون برابر باشه با 'Hello react' . 
+
+یه بار دیگه کل تست رو با هم ببنیم : 
+
+```javascript 
+it("Take Hellow Message", () => {
+  render(<App />);
+  const hellowMessage = screen.getByRole("Hellow");
+  expect(hellowMessage.textContent).toBe("Hello react");
+});
+```
+اگر در terminal vscode بیام و test خودمون رو run کنیم با دستور npm test 
+
+اولین test که نوشتیم pass خواهد شد . 
