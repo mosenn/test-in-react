@@ -6,7 +6,9 @@
 
 با true و false شدن state یک text که درون tag p قرار داره تغییر می کنه . 
 
-کلیت کامپونت app.jsx به صورت زیر هست : 
+ کامپونت app.jsx به صورت زیر هست :
+
+
 
 ```javascript
 import { useState } from "react";
