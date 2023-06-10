@@ -87,4 +87,50 @@ import { expect, test } from "vitest";
 ````
 **نکته**: البته در این فایل تست expect , test رو هم import نشه از vitest به دلیل اینکه از react-library داریم استفاده می کنیم 
 
-به صورت گلوبال به expect , test دسترسی داریم . اگر import vitest رو هم پاک کنیم test ما کار pass میشه . 
+به صورت گلوبال به expect , test دسترسی داریم . اگر import vitest رو هم پاک کنیم test ما کار pass میشه .
+
+
+# test one 
+
+اولین تستی که می خوایم بنوسیم می خوایم چک کنیم ببینم در تگ h1 پیام مد نظر ما نوشته شده یا خیر . 
+
+تگ h1 رو درون کامپونت App.jsx یک بار دیگه ببنیم : 
+
+```javascript
+ <h1 role="Hellow">Hello react</h1>
+```
+
+می خوایم ببنیم hello react درون تگ h1 هست یا خیر در واقع یک تست براش بنوسیم . 
+
+همیشه اولین کاری که برای تست انجام میدیم این هست که فانکشن تست رو صدا می زنیم . 
+
+```javascript
+test("Take Hellow Message", () => {
+});
+```
+
+این فانکشن در اصل از testing-library/react میاد . می تونیم از it هم استفاده کنیم که کار فانکشن test رو انجام میده 
+
+در واقع it از vitest ایمپورت میشه : 
+```javascript 
+import {  it } from "vitest";
+it("Take Hellow Message", () => {
+});
+``` 
+در ادامه درون arrow function میایم کد های مربوط به test رو قرار میدیم . 
+
+قدم اول render کردن کامپونت مورد نظر هست . 
+```javascript
+it("Take Hellow Message", () => {
+  render(<App />);
+});
+```
+
+قدم دوم گرفتن element یا tag مورد نظر مون هست . 
+```javascript 
+it("Take Hellow Message", () => {
+  render(<App />);
+  const hellowMessage = screen.getByRole("Hellow");
+
+});
+````
